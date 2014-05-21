@@ -7,3 +7,18 @@
 Time to 
  Say <%= link_to "Goodbye" ,say_goodbye_path %>
 </p>
+<b> Play time</b>
+<p>
+<%= 1+2 %>
+</p>
+<p>
+<%= "cow" + "bow" %>
+</p>
+
+<%= 1.hour.from_now.localtime %>
+<hr>
+<ul>
+<% for file in @files   %>
+  <li>file name: is <%= file %></li>
+<% end %>
+</ul>
